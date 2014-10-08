@@ -12,4 +12,9 @@ public class ProgramTest {
 		assertEquals("Hi All", Program.createMessage());
 	}
 
+	@Test
+	public void testMain1() {
+		
+		assertEquals("Hi All 1", Program.createMessage());
+	}
 }
